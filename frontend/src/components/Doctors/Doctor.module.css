@@ -1,0 +1,152 @@
+.list__doctor{
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    margin-top: 30px;
+    gap: 20px;
+}
+.doctor__card{
+    padding: 0.75rem; /* 12px */
+}
+.doctor__img{
+    width: 100%;
+}
+.doctor__item{
+    font-size: 18px;
+    line-height: 30px;
+    color:black;
+    font-weight:700;
+    margin-top: 0.75rem; /* 12px */
+}
+.doctor__subjection{
+    margin-top: 0.5rem; /* 8px */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.doctor__subtitle{
+    background-color:rgb(153, 175, 168);
+    color:rgb(14, 211, 168);
+    padding-left: 0.5rem;
+    padding-right: 0.5rem; 
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem; 
+    font-size: 12px;
+    line-height: 1rem;
+    font-weight: 600;
+    border-radius: 4px;
+}
+.doctor__conception{
+    display: flex;
+    gap:6px;
+    align-items: center;
+    color:black;
+}
+.doctor__viewers{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 14px;
+    line-height: 1.5rem; /* 24px */
+    color:black;
+    font-weight: 600;
+}
+.doctor__ranking{
+    font-size: 14px;
+    line-height: 1.5rem; /* 24px */
+    font-weight: 400;
+}
+.doctor__info{
+    margin-top: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.doctor__patients{
+    font-size:16px;
+    font-weight: 600;
+    line-height: 1.75rem; /* 28px */
+}
+.doctor__hospital{
+    font-size: 14px;
+    line-height: 1.5rem; /* 24px */
+    font-weight: 400;
+    color:rgb(126, 122, 122);
+}
+.carosel_link{
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #181A1E;
+    border-radius: 9999px;
+
+    
+  }
+  .carosel_link:hover{
+    background-color:#0067FF;
+    border:none;
+  }
+  .group__carosel{
+    width: 24px;
+    height: 20px;
+    text-align: center;
+  }
+/* Thay đổi kích thước chữ khi màn hình rộng >= 768px (md) */
+@media (min-width: 768px) {
+    .list__doctor{
+        grid-template-columns: repeat(2, minmax(0, 2fr));
+        
+    }
+}
+
+/* Thay đổi hướng flex khi màn hình rộng >= 1024px (lg) */
+@media (min-width: 1024px) {
+    .list__doctor{
+        gap:30px;
+        margin-top: 55px;
+        padding-left: 5px;
+        padding-right: 5px;
+        grid-template-columns: repeat(3, minmax(0, 3fr));
+    }
+    .doctor__info{
+        margin-top: 1.25rem; /* 20px */
+     
+    }
+    .doctor__card{
+        padding: 1.25rem; /* 20px */
+    }
+    .doctor__item{
+        font-size: 26px;
+        line-height: 2.25rem; /* 36px */
+        margin-top: 1.25rem; /* 20px */
+        
+    }
+    .doctor__subjection{
+        margin-top: 1rem; /* 16px */
+    }
+    .doctor__subtitle{
+        padding-top: 0.5rem; /* 8px */
+        padding-bottom: 0.5rem; /* 8px */
+        padding-left: 1.5rem; /* 24px */
+        padding-right: 1.5rem; /* 24px */
+        font-size: 16px;
+        line-height: 1.75rem; /* 28px */
+    }
+    .doctor__ranking{
+        font-size: 16px;
+        line-height: 1.75rem; /* 28px */  
+    }
+    .doctor__viewers{
+        font-size: 16px;
+        line-height: 1.75rem; /* 28px */
+    }
+    .doctor__patients{
+        font-size:18px;
+        line-height:30px
+    }
+}
+/* Đặt chiều cao khi màn hình rộng >= 1536px (2xl) */
+@media (min-width: 1536px) {
+
+}

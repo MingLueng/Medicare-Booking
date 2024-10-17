@@ -1,0 +1,46 @@
+.bg_checkout{
+    background-color: rgb(243 244 246);
+    height: 100vh;
+}
+.bg_content__001{
+    background-color: white;
+    padding: 1.5rem; /* 24px */
+}
+.bg_seller__002{
+    width: 4rem; /* 64px */
+    height: 4rem; /* 64px */
+    color: rgb(22 163 74);
+    margin-top: 1.5rem; /* 24px */
+    margin-bottom: 1.5rem; /* 24px */
+    width: 100%;
+}
+.checkout__prc{
+    text-align: center;
+}
+.bg_quanrence{
+    color: rgb(22 163 74);
+    margin-top: 1.0rem; /* 24px */
+    margin-bottom: 1.0rem; /* 24px */
+}
+.bg_newjoke{
+    text-align: center;
+    padding-top: 2.5rem; /* 40px */
+    padding-bottom: 2.5rem; /* 40px */
+}
+.bg_universe{
+    color: white;
+    font-weight: bold;
+    background-color: #FF5733;
+    padding-left: 3rem; /* 48px */
+    padding-right: 3rem; /* 48px */
+}
+ /* Thay đổi kích thước chữ khi màn hình rộng >= 768px (md) */
+ @media (min-width: 768px) {
+    .bg_content__001{
+        max-width: 768px; /* Width for medium screens (like Tailwind's 'container') */
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}

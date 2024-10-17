@@ -1,0 +1,87 @@
+.list__services{
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    margin-top: 30px;
+    gap: 20px;
+}
+.services__card{
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.services__item{
+    font-size: 26px;
+    line-height: 36px;
+    font-weight: 700;
+    color:rgb(10, 10, 10);
+}
+.services__desc{
+    font-size: 16px;
+    line-height: 28px;
+    font-weight:400;
+    color:rgb(105, 104, 104);
+    margin-top: 4px;
+}
+
+
+  .carosel_link_1{
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #181A1E;
+    border-radius: 9999px;
+
+    
+  }
+  .carosel_link_1:hover{
+    background-color:#0067FF;
+    border:none;
+  }
+  .group__carosel{
+    width: 24px;
+    height: 20px;
+    text-align: center;
+  }
+  .services__bgColor{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    align-items: center;
+
+  }
+  .services__textColor{
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 600;
+    border-radius:6px 0px 0px 6px;
+    
+  }
+  /* Thay đổi kích thước chữ khi màn hình rộng >= 768px (md) */
+    @media (min-width: 768px) {
+        .list__services{
+            grid-template-columns: repeat(2, minmax(0, 2fr));
+        }
+    }
+    
+  /* Thay đổi hướng flex khi màn hình rộng >= 1024px (lg) */
+    @media (min-width: 1024px) {
+        .list__services{
+            grid-template-columns: repeat(3, minmax(0, 3fr));
+            gap:30px;
+            margin-top: 55px;
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+    }
+    /* Đặt chiều cao khi màn hình rộng >= 1536px (2xl) */
+    @media (min-width: 1536px) {
+
+    }

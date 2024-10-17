@@ -1,0 +1,76 @@
+.faq_list{
+    margin-top: 38px;
+    
+}
+.faq_outline{
+    padding: 0.75rem;
+    border: 1px solid #D9DCE2;
+    margin-bottom: 1.25rem;
+    cursor: pointer;
+    border-radius: 12px;
+}
+.faq__symbols{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    gap: 20px;
+
+}
+.faq__questions{
+    font-size: 16px;
+    color:rgb(22, 22, 22);
+    line-height: 28px;
+}
+.faq__content{
+    border: 1px solid #141F21;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.75rem; 
+    height: 1.75rem; 
+    border-radius: 0.25rem; 
+    
+}
+.faq__content__open {
+    background-color: rgb(106, 106, 247);
+    color: white;
+    border: none;
+  }
+  .faq__assets{
+    margin-top: 1.25rem; /* 20px */
+  }
+  .faq__cenception{
+    font-size: 14px;
+    font-weight: 400;
+    color:rgb(96, 108, 119);
+    line-height: 1.5rem; /* 24px */
+  }
+/* Thay đổi kích thước chữ khi màn hình rộng >= 768px (md) */
+@media (min-width: 768px) {
+
+}
+
+/* Thay đổi hướng flex khi màn hình rộng >= 1024px (lg) */
+@media (min-width: 1024px) {
+    .faq_outline{
+    padding: 1.25rem;
+   
+}
+    .faq__questions{
+    font-size: 22px;
+    line-height: 32px;
+}
+    .faq__content{
+
+    width: 2rem; /* 28px */
+    height: 2rem; /* 28px */
+}
+    .faq__cenception{
+    font-size: 16px;
+    line-height: 1.75rem; /* 28px */
+  }
+}
+/* Đặt chiều cao khi màn hình rộng >= 1536px (2xl) */
+@media (min-width: 1536px) {
+
+}

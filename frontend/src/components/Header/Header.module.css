@@ -1,0 +1,127 @@
+.header{
+    display: flex;
+    align-items: center;
+    background-image: url(/src/assets/images/mask.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+}
+.items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container {
+    max-width: 100%;
+    width: 1440px;
+    padding-left: 20px; 
+    padding-right: 20px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    gap:44px;
+}
+.menu_link{
+    color: #4E545F; 
+    line-height: 28px;
+    font-size:16px;
+    font-weight:600;
+    transition: color 0.3s;
+}
+
+.menu_link:hover {
+    color: #0067FF; 
+  }
+  
+  .menu_link.active {
+    font-weight: 600;
+    color: #0067FF; 
+    line-height: 28px;
+    font-size:16px;
+    font-weight:600;
+    transition: color 0.3s;
+  }
+.nav_right{
+    display: flex;
+    align-items: center;
+    gap:4px;
+}
+.menu_right{
+    width: 35px;
+    height:35px;
+    border-radius: 9999px;
+    cursor: pointer;
+}
+.menu_item_right{
+    width: 100%;
+    border-radius: 9999px;
+}
+.login_up{
+    color: rgb(255 255 255);
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 2px;
+    padding-bottom:2px;
+    font-weight: 600;
+    background-color: #0067FF;
+    height:44px;
+    display: flex;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.bimenu{
+    width:2rem;
+    height:2rem;
+    cursor:pointer;
+}
+
+.sticky__header{
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    position: sticky;
+    top:0;
+    left:0;
+    z-index: 99999;
+    background:white;
+    box-shadow: 3px 3px -8px 3px #ddd;
+}
+@media only screen and (max-width: 768px){ 
+    .navigation{
+        width:100%;
+        height:100%;
+        position: fixed;
+        top:0;
+        left:0;
+        z-index: 100;
+        background: #00000084;
+        display: none;
+    }
+    .menu{
+        width:250px;
+        height:100%;
+        position: absolute;
+        top:0;
+        left:0;
+        background-color: aliceblue;
+        z-index: 200;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        line-height: 30px;
+    }
+    .show__menu{
+        display:block;
+    }
+    
+}
+
+    

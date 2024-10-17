@@ -1,0 +1,57 @@
+.testimonial{
+    margin-top: 30px;
+    
+}
+
+.swiper__item{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 1.25rem; /* 20px */
+    padding-right: 1.25rem; /* 20px */
+    border-radius: 3px;
+}
+.swiper__views{
+    display: flex;
+    gap: 13px;
+    align-items: center;
+}
+.swiper__title{
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 700;
+    color:rgb(19, 18, 18);
+}
+.swiper__ranking{
+    display: flex;
+    align-items: center;
+    gap:2px;
+}
+.twl__histar{
+    color: yellow;
+    width: 18px;
+    height: 1.25rem; /* 20px */
+
+}
+.swiper__subcriber{
+    font-size: 16px;
+    line-height: 1.75rem; /* 28px */
+    color:rgb(58, 51, 51);
+    margin-top: 1rem; /* 16px */
+    font-weight: 400;
+}
+/* Thay đổi kích thước chữ khi màn hình rộng >= 768px (md) */
+@media (min-width: 768px) {
+
+}
+
+/* Thay đổi hướng flex khi màn hình rộng >= 1024px (lg) */
+@media (min-width: 1024px) {
+    .testimonial{
+        margin-top: 55px;
+        
+    }
+}
+/* Đặt chiều cao khi màn hình rộng >= 1536px (2xl) */
+@media (min-width: 1536px) {
+
+}
